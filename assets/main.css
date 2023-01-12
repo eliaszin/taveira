@@ -245,6 +245,24 @@ h4 {
   text-align: center;
 }
 
+/* VIDEO */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ytp-chrome-top, .ytp-watermark, .ytp-title, .ytp-title-channel {
+  display: none;
+}
+
 /* DIV COPYRIGHT */
 .copyright {
   font-size: 1.4rem;
